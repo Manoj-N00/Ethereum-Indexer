@@ -1,6 +1,7 @@
 # ETHEREUM INDEXER
 A rudimentary Ethereum indexer that scans the blockchain and updates the balances of deposit addresses in databases. Withdrawals, like those on a centralised exchange (CEX), can be updated with specifics if the user so desires..
 
+
 ## Key Features
 * **Atomicity** - usage of multiple RPC providers for confirming transaction accuracy
 * **Minimal RPC calls** - one rpc call per rpc provider over the block
